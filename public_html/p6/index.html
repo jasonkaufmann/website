@@ -97,8 +97,8 @@
 
         console.log(window.screen.width)
         console.log(window.screen.height)
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = window.screen.width.toString();
+        canvas.style.height = window.screen.height.toString();
       }
 
       loadingBar.style.display = "block";
@@ -118,10 +118,6 @@
         });
       };
       document.body.appendChild(script);
-      $.document("ready", function () {
-        console.log(Screen.width)
-        console.log(Screen.height)
-      })
     </script>
   </body>
 </html>
