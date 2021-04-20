@@ -95,8 +95,7 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        console.log(Screen.width)
-        console.log(Screen.height)
+
         canvas.style.width = "960px";
         canvas.style.height = "600px";
       }
@@ -118,6 +117,10 @@
         });
       };
       document.body.appendChild(script);
+      $.document("ready", function () {
+        console.log(Screen.width)
+        console.log(Screen.height)
+      })
     </script>
   </body>
 </html>
