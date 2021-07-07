@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DigitalLogicSimulatorUpdater.exe" version="0.0.0.5" publicKeyToken="4a3d6c6986798cae" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="UpdaterLogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15336">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4BchofLJzyzxsEfMGi22VD/UYAsD2tF+a/Arx1I1USA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DigitalLogicSimulatorUpdater.deps.json" size="2614">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+qcsT7r5nPQZKuWjWfDg/mLdU1QiCvIsk5mFz0byCYc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DigitalLogicSimulatorUpdater.dll" size="3268072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yiqgsacJg4yZelKn7Ho2cfN9U17UWvSMUJW6BHEISZY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DigitalLogicSimulatorUpdater.exe" size="132072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eBfokcbmYU1+RtyJQcO0OupIgtu3Ei44X2ecxQbgd6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DigitalLogicSimulatorUpdater.runtimeconfig.json" size="154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NiDVPch7SqLL1QtcqAuqPjoBfZ04y3L2kORCla/DP3c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" size="419728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vgL/bAlVYxLBCrLJS+m/zya5tsTsiyImbPvwhpwdK4o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" size="436624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TfWbtmj/A/gXQ0A+21SgE2+nogt2H9NbO6es0ppYtz0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Drawing.Common.dll" size="173456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dwtIoWQRFC7p1tlAJ7t97eQP9V3zyrjSdzHn0aaC4HM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="UpdaterLogo.ico" size="3626">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2u/QLzN9t32omXtKIVslsH26WKEtSjaiygA9QsZqK9I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TESLAMOTORS\jakaufmann" issuerKeyHash="bcd1dbf741e0e0cb6ab1c542a98544cb6b38747b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KuuF+189/kEi+dJaRGe1wfDC5hUpZZAE2Tv8qlAQuAw=</DigestValue></Reference></SignedInfo><SignatureValue>JyGVTXmRZlC5ILPLbJi1cRyAhKFG8A65HZrqonAvGTp3mQ9N9cwLLvwICOOdqmED+haig2MAwdVIvH2WzdwYi4A7ddtLzeLi4l024vUgTqxN6wH+Vm4L3ruoeiv5fheDLbo/jBWjp12NC7vskVC866DZ9N8bZ3wrgzSG7ohqY8o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v8SeALqjvxmT+TvKUc32OyJvAveWLNlCb3a059j/vjd0hDFRen0ITdK4wQQ0kdTipYnwIqiZMx0EPTJGg6TO4J4oW97PH2Jpl7yR05jLY5jhRCw+rvzt3H8MkEhDJvfGVSoI6eGkMwlMWnpCcmf9GDF0bTbCnnUFRMEl/qhfGsk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0cb81050aafc3bd90490652915e6c2f0c1b567445ad2f92241fe3d5ffb85eb2a" Description="" Url=""><as:assemblyIdentity name="DigitalLogicSimulatorUpdater.exe" version="0.0.0.5" publicKeyToken="4a3d6c6986798cae" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TESLAMOTORS\jakaufmann</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sA0kPxA/FF1AHflMSBvzxY4cP+YOBN2aRM9RQR5RwCE=</DigestValue></Reference></SignedInfo><SignatureValue>h1N7TsnPy7DKaqYfisvF5U8qjPS+zjyNQVYyaHw/gZby3e1MJtbrLZFSKGTcY5ZTsh0hPS5nTqEv8l6DpBU3zLDDmyWdkyKc7+5/FhFADkAdh77EZg+afjYBuuK0coh0M6tOsnbh9XodhX3MSzOoVM/al+bJgyFoobyiM5wzUa4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v8SeALqjvxmT+TvKUc32OyJvAveWLNlCb3a059j/vjd0hDFRen0ITdK4wQQ0kdTipYnwIqiZMx0EPTJGg6TO4J4oW97PH2Jpl7yR05jLY5jhRCw+rvzt3H8MkEhDJvfGVSoI6eGkMwlMWnpCcmf9GDF0bTbCnnUFRMEl/qhfGsk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQEbP+TTyblJlAoC0EGODE0TANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAVABFAFMATABBAE0ATwBUAE8AUgBTAFwAagBhAGsAYQB1AGYAbQBhAG4AbjAeFw0yMTA3MDcwMjU2NDFaFw0yMjA3MDcwODU2NDFaMDcxNTAzBgNVBAMeLABUAEUAUwBMAEEATQBPAFQATwBSAFMAXABqAGEAawBhAHUAZgBtAGEAbgBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/xJ4AuqO/GZP5O8pRzfY7Im8C95Ys2UJvdrTn2P++N3SEMVF6fQhN0rjBBDSR1OKlifAiqJkzHQQ9MkaDpM7gnihb3s8fYmmXvJHTmMtjmOFELD6u/O3cfwyQSEMm98ZVKgjp4aQzCUxaekJyZ/0YMXRtNsKedQVEwSX+qF8ayQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHrTX4bA843R/cThknQZ7TWKjD9JIoBqUzAJqx268IcWHNgSY2PvN+mwfqN6BdUA0nIH+0Ja1oDNn5TSZ3Pxp6TcLgsVSXybf68x5S3Jl0zLPOgud35n8whdoVuH6R/DAs2mh+yNXQTws6u357+zSQTLHZ4z+wlYbrFJvBjZFXKE</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
