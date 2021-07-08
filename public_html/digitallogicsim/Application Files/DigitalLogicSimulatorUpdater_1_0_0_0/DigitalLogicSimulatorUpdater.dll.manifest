@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="DigitalLogicSimulatorUpdater.exe" version="1.0.0.0" publicKeyToken="fb14506eb25ef7fc" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="DigitalLogicSimulatorUpdater.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="UpdaterLogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="14336">
       <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KnZfo73TjT7fZgomYNJpLUH1uv2CJVlrTejdBSOwie4=</dsig:DigestValue>
+        <dsig:DigestValue>bp9fjl7byH8wW5AxS4ORLANTIybrTzhXRvRGofAC/gs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,22 +63,22 @@
       <dsig:DigestValue>+qcsT7r5nPQZKuWjWfDg/mLdU1QiCvIsk5mFz0byCYc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DigitalLogicSimulatorUpdater.dll" size="3268072">
+  <file name="DigitalLogicSimulatorUpdater.dll" size="3267072">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ctSzoOrQdFoo2Z2xTP6bzoodyHwp22+aaHOwdnsaapI=</dsig:DigestValue>
+      <dsig:DigestValue>VmpRntPsNq+gRVaf98I1gXBcL3BJ1Wq2PKAxcJ04Lm8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DigitalLogicSimulatorUpdater.exe" size="132072">
+  <file name="DigitalLogicSimulatorUpdater.exe" size="131072">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qzjbfh+XiAP6du8Tpla0eR5RROOl1QHYjPQfA42t1d8=</dsig:DigestValue>
+      <dsig:DigestValue>/higOo2E64sekAa3YjwyitWjJxs0j2Ck2myC5WPMb/Y=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DigitalLogicSimulatorUpdater.runtimeconfig.json" size="154">
@@ -126,4 +126,4 @@
       <dsig:DigestValue>2u/QLzN9t32omXtKIVslsH26WKEtSjaiygA9QsZqK9I=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=TESLAMOTORS\jakaufmann" issuerKeyHash="cd623f8708de8143dbdfa6631e9d5e947ac94eb4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mPCS5BO13EXkDgYXvDGAZfqurezoYFB/CZ/l6kpDLw8=</DigestValue></Reference></SignedInfo><SignatureValue>xaqk5rauo+9Rd7fFSvanmpaNgs+8TkVZnqX7RAd+PsnroD0q9rT4pv/9/6PRL8IHp9tmVSCnVQr9+eGJ0hWfFOiYEbmLOmGm8UYQ3Ht4Ft7jzLz2/U3EWrphtQs/YC0cze7dLQS3muuwtdA5VNnYW20N/5JRpJutvQetMvip9zc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0ghF3Lbr+PgefsOXIwa8FGaCtN4WQbbDYRvMd0VL6iQiSBE6CKGPeMTtKYMDYhZbmaczU0nJbep74Ktv5vjTRiWmb/tWYiqJRTaXgky/1QQBBhPSWJ9SREZOzpy3ziLtYiWbsqQJqktq2mCQSqbaJZWPeOeMmxyqJVWAPzSIxsE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0f2f434aeae59f097f5060e8ecadaefa658031bc17060ee445dcb513e492f098" Description="" Url=""><as:assemblyIdentity name="DigitalLogicSimulatorUpdater.exe" version="1.0.0.0" publicKeyToken="fb14506eb25ef7fc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TESLAMOTORS\jakaufmann</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rQznXFs3nV5S+mHUFlMQ2Or8xAshwh7qb2OfzUcrq/4=</DigestValue></Reference></SignedInfo><SignatureValue>f0AMMcM/nKZ4JnqKLnLHmGpys7U06W7LMZxwP3xa9mL11OYsk7LECDJenH1FyQdIshEjul6jlZyo0+Vyu3TT2rLEMABA0hN7gREAfhyA2ah3R2NCFe7lneHfLtOaKyBupW+VjCoxiBb8R6eaJnjhDt7cZPXTen3SDyPOoyfUqAw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0ghF3Lbr+PgefsOXIwa8FGaCtN4WQbbDYRvMd0VL6iQiSBE6CKGPeMTtKYMDYhZbmaczU0nJbep74Ktv5vjTRiWmb/tWYiqJRTaXgky/1QQBBhPSWJ9SREZOzpy3ziLtYiWbsqQJqktq2mCQSqbaJZWPeOeMmxyqJVWAPzSIxsE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQVRRIk8H0dIJJdoc/yGY+rzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAVABFAFMATABBAE0ATwBUAE8AUgBTAFwAagBhAGsAYQB1AGYAbQBhAG4AbjAeFw0yMTA3MDgyMzI3MjVaFw0yMjA3MDkwNTI3MjVaMDcxNTAzBgNVBAMeLABUAEUAUwBMAEEATQBPAFQATwBSAFMAXABqAGEAawBhAHUAZgBtAGEAbgBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSCEXctuv4+B5+w5cjBrwUZoK03hZBtsNhG8x3RUvqJCJIEToIoY94xO0pgwNiFluZpzNTSclt6nvgq2/m+NNGJaZv+1ZiKolFNpeCTL/VBAEGE9JYn1JERk7OnLfOIu1iJZuypAmqS2raYJBKptollY9454ybHKolVYA/NIjGwQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAE7bO2DaaTsdt5d+//ZsaYpdKajuSRYKN2MGeLkVtYLwYxOeDAAyLW/CWRcsvT2ot+y8AuxhQGZ1ykNag7+E2LPdHfbJKvGAi4Lq7whMGqs4H/Soy9bRYsr3482BYoLhfcDGTH5Nv3rsqC7GrUXSiMa2vwbPe6PHMyWmWTydE2SI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
