@@ -63,13 +63,13 @@
       <dsig:DigestValue>+qcsT7r5nPQZKuWjWfDg/mLdU1QiCvIsk5mFz0byCYc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DigitalLogicSimulatorUpdater.dll" size="3267072">
+  <file name="DigitalLogicSimulatorUpdater.dll" size="3267584">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>VmpRntPsNq+gRVaf98I1gXBcL3BJ1Wq2PKAxcJ04Lm8=</dsig:DigestValue>
+      <dsig:DigestValue>ssitXUJ6BsFDm9ke7/4iLgzO7cQ9DbMmFIrXXupGrQI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DigitalLogicSimulatorUpdater.exe" size="131072">
